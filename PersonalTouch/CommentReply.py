@@ -40,9 +40,16 @@ reply_selector = all_page.driver.find_elements_by_xpath(reply_xpath)
 print(len(reply_selector))
 
 personal_reply = [
-    "That's interesting",
-    "Wow",
-    "whats up"
+    "That's interesting :)",
+    "Wow!",
+    "whats up?",
+    "Hi!",
+    "Hello",
+    "Do you have time?",
+    "Nice to meet you :)",
+    "How do you do?",
+    "How is going your day?"
+
 ]
 
 for i in range(len(reply_selector)):
